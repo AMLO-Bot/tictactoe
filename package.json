@@ -1,0 +1,23 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe challenge from the Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "keywords": [
+    "game",
+    "Odin",
+    "Project",
+    "tictactoe"
+  ],
+  "author": "Aldair Avalos <aldair.avalos.2000@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
