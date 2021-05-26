@@ -1,1 +1,0 @@
-(()=>{alert("HUEVOS");var o=[1,5,function(){return console.log("LOL")},"Poliester"],e=o[0],l=o[1],n=o[2],r=o[3];console.log(e,l,n,r)})();
