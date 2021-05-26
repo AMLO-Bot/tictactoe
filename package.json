@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode=development",
-    "prod": "webpack --mode=production"
+    "prod": "webpack --mode=production",
+    "config": "webpack init"
   },
   "keywords": [
     "game",
@@ -17,6 +18,9 @@
   "author": "Aldair Avalos <aldair.avalos.2000@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
     "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0"
   }
