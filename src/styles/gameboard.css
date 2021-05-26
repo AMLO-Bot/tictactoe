@@ -1,0 +1,12 @@
+.gameboard {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.gameboard .box {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid red;
+  font-size: 2rem;
+}

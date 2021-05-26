@@ -1,3 +1,4 @@
+import styles from "./index.css";
 import Gameboard from "./scripts/Gameboard.js";
 import GameController from "./scripts/GameController.js";
 import Player from "./scripts/Player.js";

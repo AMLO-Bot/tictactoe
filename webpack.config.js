@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -12,6 +13,7 @@ module.exports = {
       // Load a custom template (lodash by default)
       template: "template_index.html",
     }),
+    new MiniCssExtractPlugin(),
   ],
   module: {
     rules: [
@@ -24,6 +26,12 @@ module.exports = {
             presets: ["@babel/preset-env"],
           },
         },
+      },
+    ],
+    rules: [
+      {
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
     ],
   },

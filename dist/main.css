@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Work Sans";
+}
+
+body {
+  background-color: aqua;
+}
+
+.main {
+  padding: 2rem;
+}
+
+  
+.gameboard {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.gameboard .box {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid red;
+  font-size: 2rem;
+}
+
+.intercative {
+  cursor: pointer;
+}
+.center-txt {
+  text-align: center;
+}
+.top-bottom-margin {
+  margin: 2em auto;
+}
+.sm-top-bottom-margin {
+  margin: 0.5em auto;
+}
+.right-margin {
+  margin-right: 1em;
+}
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.grid {
+  display: grid;
+}
+
+
+
