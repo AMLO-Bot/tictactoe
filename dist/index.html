@@ -1,1 +1,74 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Document</title><script defer="defer" src="index_bundle.js"></script></head><body><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.css" />
+  <script defer src="index_bundle.js"></script></head>
+  <body>
+    <main class="main">
+      <h1 class="game-title center-txt">TIC TAC TOE MAADAF*KA</h1>
+      <form id="game-form" class="game-form center-txt top-bottom-margin">
+        <summary>Enter your Names</summary>
+        <div class="container sm-top-bottom-margin" aria-hidden="true">
+          <label for="name1 " class="right-margin">Player 1</label>
+          <input
+            type="text"
+            class="player-name"
+            name="name"
+            id="name1"
+            placeholder="Default: Trickster"
+            maxlength="15"
+            autocomplete="name"
+          />
+        </div>
+        <div class="container sm-top-bottom-margin" aria-hidden="true">
+          <label for="name1" class="right-margin">Player 2</label>
+          <input
+            type="text"
+            class="player-name"
+            name="name"
+            id="name2"
+            placeholder="Default: Joanna"
+            maxlength="15"
+            autocomplete="name"
+          />
+        </div>
+
+        <input type="submit" class="btn" value="START PLAYING!" />
+      </form>
+      <table id="gameboard" class="gameboard center-txt top-bottom-margin">
+        <tbody>
+          <tr class="box-row">
+            <td class="box"></td>
+            <td class="box"></td>
+            <td class="box"></td>
+          </tr>
+          <tr class="box-row">
+            <td class="box"></td>
+            <td class="box"></td>
+            <td class="box"></td>
+          </tr>
+          <tr class="box-row">
+            <td class="box"></td>
+            <td class="box"></td>
+            <td class="box"></td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 class="status-text center-txt"></h2>
+      <div class="none winner-overlay sm-top-bottom-margin">
+        <input
+          id="restart"
+          class="btn"
+          type="button"
+          value="Wanna Play Again?"
+          class="center-txt intercative block top-bottom-margin"
+        />
+      </div>
+    </main>
+  </body>
+</html>
